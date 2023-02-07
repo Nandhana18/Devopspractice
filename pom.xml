@@ -24,12 +24,5 @@
     <finalName>Devospractie</finalName>
   </build>
 
-<distributionManagement>
-<snapshotRepository>
-<id>Deployment </id>
-<name>Internal snapshot release </name>
-<url>http://18.182.66.28:8081/repository/devops/</url>
-</snapshotRepository>
-</distributionManagement>
 
 </project>
