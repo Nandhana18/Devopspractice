@@ -16,13 +16,6 @@
     </dependency>
   </dependencies>
   <build>
-<distributionManagement>
-<snapshotRepository>
-<id>Deployment </id>
-<name>Internal snapshot release </name>
-<url>http://18.182.66.28:8081/repository/devops/</url>
-</snapshotRepository>
-</distributionManagement>
 
 	  <plugins><plugin><groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-war-plugin</artifactId>
@@ -30,5 +23,13 @@
       </plugin></plugins>
     <finalName>Devospractie</finalName>
   </build>
+
+<distributionManagement>
+<snapshotRepository>
+<id>Deployment </id>
+<name>Internal snapshot release </name>
+<url>http://18.182.66.28:8081/repository/devops/</url>
+</snapshotRepository>
+</distributionManagement>
 
 </project>
